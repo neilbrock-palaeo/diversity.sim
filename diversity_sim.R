@@ -1,3 +1,7 @@
+require(paleotree)
+require(strap)
+require(phangorn)
+
 diversity.sim<-function(local=200,form=20,form.a=10,ptaph=0.2,
 	pform=0.2,ploc=0.2,pmist=0.1,min.spec=1000,max.spec=2000,nbins=100,
 	disp=0.25,ext=0.25)
